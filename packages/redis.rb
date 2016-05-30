@@ -1,9 +1,9 @@
 require 'package'
 
 class Redis < Package
-  version '3.0.6'
-  source_url 'http://download.redis.io/releases/redis-3.0.6.tar.gz'
-  source_sha1 '4b1c7b1201984bca8f7f9c6c58862f6928cf0a25'
+  version '3.2.0'
+  source_url 'http://download.redis.io/releases/redis-3.2.0.tar.gz'
+  source_sha1 '0c1820931094369c8cc19fc1be62f598bc5961ca'
 
   depends_on 'buildessential'
 
